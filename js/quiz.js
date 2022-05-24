@@ -82,10 +82,10 @@ if (question5 === "no") {
 if (correct_answer === 5){
     rank = `Congrats! You got ${correct_answer} answers. Your rank is Gold`;
     message.innerHTML = `<h1><span style = color: "red">${rank}</span></h1>`
-} else if (correct_answer >= 3 && correct_answer <= 4) {
+} else if (correct_answer >= 3 && correct_answer <= 4) { /*It is better to write correct_answer >= 3. It is shorter.*/
     rank = `Congrats! You got ${correct_answer} answers. Your rank is Silver`;
     message.innerHTML = `<h1><span style = color: "red">${rank}</span></h1>`
-} else if (correct_answer >= 1 && correct_answer <= 2) {
+} else if (correct_answer >= 1 && correct_answer <= 2) { /*It is better to write correct_answer >= 1. It is shorter.*/
     rank = `Congrats! You got ${correct_answer} answers. Your rank is Bronze`;
     message.innerHTML = `<h1><span style = color: "red">${rank}</span></h1>`
 } else {
